@@ -160,8 +160,8 @@ README.md       This file
 
 ## What else is in this repo
 
-**`DECISIONS.md`** — the main design document. Covers every meaningful decision made: why four lanes, how grounding works, why restricted fields are excluded structurally, how each of the 9 questions was routed and why, the guardrails added, and what was deliberately left out. Written to be walked through live.
+**`DECISIONS.md`** - Covers every meaningful decision made: why four lanes, how grounding works, why restricted fields are excluded structurally, how each of the 9 questions was routed and why, the guardrails added, and what was deliberately left out. Written to be walked through live.
 
-**`TESTING.md`** — records all testing done: the 28 automated pytest cases with what each one proves, and the manual terminal tests run against the guardrails (weather, political questions, Urdu food question).
+**`TESTING.md`** — Contains records of all testing done the 28 automated pytest cases with what each one proves, and the manual terminal tests run against the guardrails (weather, political questions, Urdu food question).
 
-**`part-2-design/`** — the Part 2 design note. Covers how the bot should fetch live customer data from multiple owning services through a single governed gateway, with positions on data ownership, field-level access control, handling slow or down services, data residency, adding new data signals, and scaling. Includes two architecture diagrams.
+**`part-2-design/`** — Covers how the bot should fetch live customer data from multiple owning services through a single governed gateway, with positions on data ownership, field-level access control, handling slow or down services, data residency, adding new data signals, and scaling. Includes two architecture diagrams.

@@ -127,9 +127,9 @@ To conclude with the final answer, I worked around with different variations whi
 
 **(a) Mention the actual reason:** "Your KYC is pending, that's why your account is restricted.", this version of the response was rejected. As there is no account restriction policy in `knowledge.md` and mentioning it might lead to inventing a policy.
 
-**(b) State the safe fact** — Initially chosen, but the draft led with the bare acronym "KYC" and such jargons are not commonly understood by the causal consumer which would lead to confusion and ambiguity and bad customer experience.
+**(b) State the safe fact:** Initially chosen, but the draft led with the bare acronym "KYC" and such jargons are not commonly understood by the causal consumer which would lead to confusion and ambiguity and bad customer experience.
 
-**(c) Surface the safe fact in plain language** — This was the final variation. "Your account isn't fully active yet. Verification is still pending." which translates the safe field into something the customer can actually understand. This avoids any confusion or bad experience and would later allow the customer to redirected to Customer Support.
+**(c) Surface the safe fact in plain language:** This was the final variation. "Your account isn't fully active yet. Verification is still pending." which translates the safe field into something the customer can actually understand. This avoids any confusion or bad experience and would later allow the customer to redirected to Customer Support.
 
 **What I'm unsure about:** Guiding the user directly on how to resolve this but then it would be an invention of a new polciy. Responding vaguely would also lead to bad customer experience. For this, I aimed at reasoning in plain language with direct escalation for smoother customer experience and support which would also lead to record customer feedback and add improvements.
 

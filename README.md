@@ -1,6 +1,6 @@
 # PayWallet Support Bot
 
-A command-line support bot that answers PayWallet customer questions. It routes each question into one of four lanes — **ANSWER**, **REFUSE**, **ESCALATE**, or **OUT_OF_SCOPE** and replies based only on approved policy and the customer's own account data.
+A command-line support bot that answers PayWallet customer questions. It routes each question into one of four lanes i.e. **ANSWER**, **REFUSE**, **ESCALATE**, or **OUT_OF_SCOPE** and replies based only on approved policy and the customer's own account data.
 
 ---
 

@@ -151,14 +151,13 @@ To conclude with the final answer, I worked around with different variations whi
 
 **Decision:** Two guardrails sit at the top of the router, before REFUSE and before any support logic. Off-topic questions (weather, news, jokes, sports, stock prices) route to `OUT_OF_SCOPE / off_topic`. Spam inputs and out of context questions route to `OUT_OF_SCOPE / spam`.
 
-`REFUSE` however is not a routing decision though but rather a hard block.
 
 **What the guardrails prevent:**
 - **Off-topic:** stops the bot from being used as a general-purpose assistant. Without this, a question like "what's the weather in Karachi?" would fall through to `OUT_OF_SCOPE / no_match` anyway, but the guardrail makes the intent explicit and allows a more specific reply like "I can only help with PayWallet account questions"  rather than a generic deflection.
 
 - **Spam:** stops the bot wasting a reply cycle on gibberish or repeated characters. Also prevents edge cases where a string of symbols might accidentally keyword-match something in the router.
 
-**Why OUT_OF_SCOPE is being used:** Both are cases where no human is needed and no PayWallet policy is relevant. Hence no need to add a new lane, OUT_OF_SCOPE works well in this case. Adding a new lane would result in more complexity, however REFUSE is not a lane but simply a block.
+**Why OUT_OF_SCOPE is being used:** Both are cases where no human is needed and no PayWallet policy is relevant. Hence no need to add a new lane, OUT_OF_SCOPE works well in this case.
 
 ---
 

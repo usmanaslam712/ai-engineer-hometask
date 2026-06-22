@@ -87,7 +87,7 @@ Before arriving to the decision process for what the bot should do, it's assumed
 
 **Why I chose this:** If the values were never loaded, they can never leak. With output filtering the values would still be in memory and a creative question or prompt injection could still get them out. Simply not loading them at all removes the entire risk. The tests check that no restricted value appears in any reply which is an existing safety procedure but not an overall guaranteed method.
 
-**What I'm unsure about:** When the bot escalates a case to a human, the agent would need more context to help the correct customer. Atm I haven't built a handoff for this bot but plan is to pass customer ID and contenxt and not the restricted data. The Customer Success person would have to utilize internal tools to pull sensitive data.
+**What I'm unsure about:** When the bot escalates a case to a human, the human would need more context to help the correct customer. Atm I haven't built a handoff for this bot but plan is to pass customer ID and contenxt and not the restricted data. The Customer Support person would have to utilize internal tools to pull sensitive data.
 
 ---
 
